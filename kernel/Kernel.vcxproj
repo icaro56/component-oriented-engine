@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F21EA2A1-6AFE-4321-B5F7-FF7805F58C9C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Kernel_VS</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)lib\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+    <IntDir>temp\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)lib\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+    <IntDir>temp\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>temp\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)lib\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>temp\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;KERNEL_VS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\dependences\qt\include;..\dependences\qt\include\QtWidgets;..\dependences\qt\include\QtGui;..\dependences\qt\include\QtCore;..\dependences\ogre\include;..\dependences\ogre\include\Overlay;..\dependences\ogre\include\PlugIns\OctreeSceneManager;..\dependences\ois\include;..\dependences\openal\include;..\dependences\boost;..\dependences\tinyxml\include;..\dependences\ogre\plugins\ogremax\include;..\dependences\ogre\plugins\skyx\Include;include;include\audio;include\externprocess;include\input;include\render;include\components;include\gameobject;..\dependences\ogre\plugins\ogreal\include;..\dependences\ogre\plugins\community\Include;..\dependences\physx\include;..\dependences\ogre\plugins\pagedterrain\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <StringPooling>true</StringPooling>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+      <AdditionalOptions>/Zm229 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\dependences\qt\lib\;..\dependences\ogre\lib\$(Platform);..\dependences\openal\lib\$(Platform);..\dependences\tinyxml\lib\$(Platform);..\dependences\ois\lib\$(Platform);..\dependences\boost\lib\$(Platform);..\dependences\ogre\plugins\ogremax\lib\$(Platform);..\dependences\ogre\plugins\skyx\lib\$(Platform);..\dependences\ogre\plugins\ogreal\lib\$(Platform)\$(Configuration);..\dependences\ogre\plugins\community\lib\$(Platform);..\dependences\physx\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>alut.lib;OpenAL32.lib;OgreAL_d.lib;qtmaind.lib;Qt5Guid.lib;Qt5Cored.lib;Qt5Widgetsd.lib;OgreMain_d.lib;OgreOverlay_d.lib;Plugin_OctreeSceneManager_d.lib;OIS_d.lib;OgreMax_d.lib;SkyX_d.lib;Community_d.lib;PhysX3CommonCHECKED_$(PlatformShortName).lib;PhysX3CharacterKinematicCHECKED_$(PlatformShortName).lib;PhysX3VehicleCHECKED.lib;PhysX3CookingCHECKED_$(PlatformShortName).lib;PhysX3CHECKED_$(PlatformShortName).lib;PhysX3ExtensionsCHECKED.lib;PhysXProfileSDKCHECKED.lib;PhysXVisualDebuggerSDKCHECKED.lib;PxTaskCHECKED.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(ProjectDir)lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)lib\$(Platform)\$(Configuration)\Kernel_d.dll" "$(ProjectDir)\..\bin\$(Platform)\$(Configuration)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;KERNEL_VS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\dependences\qt\include;..\dependences\qt\include\QtWidgets;..\dependences\qt\include\QtGui;..\dependences\qt\include\QtCore;..\dependences\ogre\include;..\dependences\ogre\include\Overlay;..\dependences\ogre\include\PlugIns\OctreeSceneManager;..\dependences\ois\include;..\dependences\openal\include;..\dependences\boost;..\dependences\tinyxml\include;..\dependences\ogre\plugins\ogremax\include;..\dependences\ogre\plugins\skyx\Include;include;include\audio;include\externprocess;include\input;include\render;include\components;include\gameobject;..\dependences\ogre\plugins\ogreal\include;..\dependences\ogre\plugins\community\Include;..\dependences\physx\include;..\dependences\ogre\plugins\pagedterrain\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/favor:blend /Zm239 %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <OmitFramePointers>false</OmitFramePointers>
+      <StringPooling>true</StringPooling>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\dependences\qt\lib\;..\dependences\ogre\lib\$(Platform);..\dependences\openal\lib\$(Platform);..\dependences\tinyxml\lib\$(Platform);..\dependences\ois\lib\$(Platform);..\dependences\boost\lib\$(Platform);..\dependences\ogre\plugins\ogremax\lib\$(Platform);..\dependences\ogre\plugins\skyx\lib\$(Platform);..\dependences\ogre\plugins\ogreal\lib\$(Platform)\$(Configuration);..\dependences\ogre\plugins\community\lib\$(Platform);..\dependences\physx\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>alut.lib;OpenAL32.lib;OgreAL_d.lib;qtmaind.lib;Qt5Guid.lib;Qt5Cored.lib;Qt5Widgetsd.lib;OgreMain_d.lib;OgreOverlay_d.lib;Plugin_OctreeSceneManager_d.lib;OIS_d.lib;OgreMax_d.lib;SkyX_d.lib;Community_d.lib;PhysX3CommonDEBUG_$(PlatformShortName).lib;PhysX3CharacterKinematicDEBUG_$(PlatformShortName).lib;PhysX3VehicleDEBUG.lib;PhysX3CookingDEBUG_$(PlatformShortName).lib;PhysX3DEBUG_$(PlatformShortName).lib;PhysX3ExtensionsDEBUG.lib;PhysXProfileSDKDEBUG.lib;PhysXVisualDebuggerSDKDEBUG.lib;PxTaskDEBUG.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(ProjectDir)lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)lib\$(Platform)\$(Configuration)\Kernel_d.dll" "$(ProjectDir)\..\bin\$(Platform)\$(Configuration)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;KERNEL_VS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\dependences\qt\include;..\dependences\qt\include\QtWidgets;..\dependences\qt\include\QtGui;..\dependences\qt\include\QtCore;..\dependences\ogre\include;..\dependences\ogre\include\Overlay;..\dependences\ogre\include\PlugIns\OctreeSceneManager;..\dependences\ois\include;..\dependences\openal\include;..\dependences\boost;..\dependences\tinyxml\include;..\dependences\ogre\plugins\ogremax\include;..\dependences\ogre\plugins\skyx\Include;include;include\audio;include\externprocess;include\input;include\render;include\components;include\gameobject;..\dependences\ogre\plugins\ogreal\include;..\dependences\ogre\plugins\community\Include;..\dependences\physx\include;..\dependences\ogre\plugins\pagedterrain\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <StringPooling>true</StringPooling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+      <AdditionalOptions>/Zm229 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(ProjectDir)lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\dependences\qt\lib\;..\dependences\ogre\lib\$(Platform);..\dependences\openal\lib\$(Platform);..\dependences\tinyxml\lib\$(Platform);..\dependences\ois\lib\$(Platform);..\dependences\boost\lib\$(Platform);..\dependences\ogre\plugins\ogremax\lib\$(Platform);..\dependences\ogre\plugins\skyx\lib\$(Platform);..\dependences\ogre\plugins\ogreal\lib\$(Platform)\$(Configuration);..\dependences\ogre\plugins\community\lib\$(Platform);..\dependences\physx\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>alut.lib;OpenAL32.lib;OgreAL.lib;qtmain.lib;Qt5Gui.lib;Qt5Core.lib;Qt5Widgets.lib;OgreMain.lib;OgreOverlay.lib;Plugin_OctreeSceneManager.lib;OIS.lib;OgreMax.lib;SkyX.lib;Community.lib;PhysX3Common_$(PlatformShortName).lib;PhysX3CharacterKinematic_$(PlatformShortName).lib;PhysX3Vehicle.lib;PhysX3Cooking_$(PlatformShortName).lib;PhysX3_$(PlatformShortName).lib;PhysX3Extensions.lib;PhysXProfileSDK.lib;PhysXVisualDebuggerSDK.lib;PxTask.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)lib\$(Platform)\$(Configuration)\Kernel.dll" "$(ProjectDir)\..\bin\$(Platform)\$(Configuration)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;KERNEL_VS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\dependences\qt\include;..\dependences\qt\include\QtWidgets;..\dependences\qt\include\QtGui;..\dependences\qt\include\QtCore;..\dependences\ogre\include;..\dependences\ogre\include\Overlay;..\dependences\ogre\include\PlugIns\OctreeSceneManager;..\dependences\ois\include;..\dependences\openal\include;..\dependences\boost;..\dependences\tinyxml\include;..\dependences\ogre\plugins\ogremax\include;..\dependences\ogre\plugins\skyx\Include;include;include\audio;include\externprocess;include\input;include\render;include\components;include\gameobject;..\dependences\ogre\plugins\ogreal\include;..\dependences\ogre\plugins\community\Include;..\dependences\physx\include;..\dependences\ogre\plugins\pagedterrain\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <AdditionalOptions>/favor:blend /Zm229 %(AdditionalOptions)</AdditionalOptions>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(ProjectDir)lib\$(Platform)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>..\dependences\qt\lib\;..\dependences\ogre\lib\$(Platform);..\dependences\openal\lib\$(Platform);..\dependences\tinyxml\lib\$(Platform);..\dependences\ois\lib\$(Platform);..\dependences\boost\lib\$(Platform);..\dependences\ogre\plugins\ogremax\lib\$(Platform);..\dependences\ogre\plugins\skyx\lib\$(Platform);..\dependences\ogre\plugins\ogreal\lib\$(Platform)\$(Configuration);..\dependences\ogre\plugins\community\lib\$(Platform);..\dependences\physx\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>alut.lib;OpenAL32.lib;OgreAL.lib;qtmain.lib;Qt5Gui.lib;Qt5Core.lib;Qt5Widgets.lib;OgreMain.lib;OgreOverlay.lib;Plugin_OctreeSceneManager.lib;OIS.lib;OgreMax.lib;SkyX.lib;Community.lib;PhysX3Common_$(PlatformShortName).lib;PhysX3CharacterKinematic_$(PlatformShortName).lib;PhysX3Vehicle.lib;PhysX3Cooking_$(PlatformShortName).lib;PhysX3_$(PlatformShortName).lib;PhysX3Extensions.lib;PhysXProfileSDK.lib;PhysXVisualDebuggerSDK.lib;PxTask.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)lib\$(Platform)\$(Configuration)\Kernel.dll" "$(ProjectDir)\..\bin\$(Platform)\$(Configuration)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\components\effects\TrailRenderer.h" />
+    <ClInclude Include="include\components\mesh\ManualObject.h" />
+    <ClInclude Include="include\components\physics\BoxCollider.h" />
+    <ClInclude Include="include\components\physics\CapsuleCollider.h" />
+    <ClInclude Include="include\components\physics\CharacterController.h" />
+    <ClInclude Include="include\components\physics\Collider.h" />
+    <ClInclude Include="include\components\physics\ConstantForce.h" />
+    <ClInclude Include="include\components\physics\MeshCollider.h" />
+    <ClInclude Include="include\components\physics\Rigidbody.h" />
+    <ClInclude Include="include\components\physics\SphereCollider.h" />
+    <ClInclude Include="include\components\physics\TerrainCollider.h" />
+    <ClInclude Include="include\components\physics\Vehicle.h" />
+    <ClInclude Include="include\components\rendering\FollowTexture.h" />
+    <ClInclude Include="include\components\script\Script.h" />
+    <ClInclude Include="include\engine\buffers\Collision.h" />
+    <ClInclude Include="include\engine\buffers\RaycastHit.h" />
+    <ClInclude Include="include\engine\buffers\TerrainData.h" />
+    <ClInclude Include="include\engine\callback\CharacterControllerCallback.h" />
+    <ClInclude Include="include\engine\callback\SceneCallback.h" />
+    <ClInclude Include="include\engine\callback\SceneQueryEventCallback.h" />
+    <ClInclude Include="include\engine\callback\SimulationEventCallback.h" />
+    <ClInclude Include="include\engine\Compositor.h" />
+    <ClInclude Include="include\engine\CompositorListeners.h" />
+    <ClInclude Include="include\engine\Engine.h" />
+    <ClInclude Include="include\engine\PhysicsEngine.h" />
+    <ClInclude Include="include\engine\RenderingEngine.h" />
+    <ClInclude Include="include\engine\RenderView.h" />
+    <ClInclude Include="include\engine\Scene.h" />
+    <ClInclude Include="include\engine\SkyXManager.h" />
+    <ClInclude Include="include\engine\SoundEngine.h" />
+    <ClInclude Include="include\engine\StereoManager.h" />
+    <ClInclude Include="include\gameobject\LayerMask.h" />
+    <ClInclude Include="include\gameobject\Tag.h" />
+    <ClInclude Include="include\KernelAPI.h" />
+    <ClInclude Include="include\MainWindow.h" />
+    <ClInclude Include="include\components\audio\AudioListener.h" />
+    <ClInclude Include="include\components\audio\AudioSource.h" />
+    <ClInclude Include="include\components\Component.h" />
+    <ClInclude Include="include\components\ComponentTemplate.h" />
+    <ClInclude Include="include\components\effects\ParticleSystem.h" />
+    <ClInclude Include="include\components\mesh\MeshFilter.h" />
+    <ClInclude Include="include\components\mesh\MeshRenderer.h" />
+    <ClInclude Include="include\components\mesh\Renderer.h" />
+    <ClInclude Include="include\components\mesh\SkinnedMeshRenderer.h" />
+    <ClInclude Include="include\components\miscellaneous\Animation.h" />
+    <ClInclude Include="include\components\rendering\Billboard.h" />
+    <ClInclude Include="include\components\rendering\BoundingBox.h" />
+    <ClInclude Include="include\components\rendering\Camera.h" />
+    <ClInclude Include="include\components\rendering\FollowText.h" />
+    <ClInclude Include="include\components\rendering\Light.h" />
+    <ClInclude Include="include\components\transform\Transform.h" />
+    <ClInclude Include="include\Core.h" />
+    <ClInclude Include="include\gameobject\GameObject.h" />
+    <ClInclude Include="include\gameobject\GameObjectManager.h" />
+    <ClInclude Include="include\gameobject\GameObjectTemplate.h" />
+    <ClInclude Include="include\gameobject\GameObjectTemplateManager.h" />
+    <ClInclude Include="include\input\InputManager.h" />
+    <ClInclude Include="include\input\JoystickEvents.h" />
+    <ClInclude Include="include\input\KeyEvents.h" />
+    <ClInclude Include="include\input\MouseEvents.h" />
+    <ClInclude Include="include\KernelPrerequisites.h" />
+    <ClInclude Include="include\Logic.h" />
+    <ClInclude Include="include\math\Bounds.h" />
+    <ClInclude Include="include\math\Color.h" />
+    <ClInclude Include="include\math\Geometry.h" />
+    <ClInclude Include="include\math\KernelMath.h" />
+    <ClInclude Include="include\math\Matrix3.h" />
+    <ClInclude Include="include\math\Matrix4.h" />
+    <ClInclude Include="include\math\Quaternion.h" />
+    <ClInclude Include="include\math\Ray.h" />
+    <ClInclude Include="include\math\Vector2.h" />
+    <ClInclude Include="include\math\Vector3.h" />
+    <ClInclude Include="include\math\Vector4.h" />
+    <ClInclude Include="include\stdafx.h" />
+    <ClInclude Include="include\time\Time.h" />
+    <ClInclude Include="include\utils\Cooker.h" />
+    <ClInclude Include="include\utils\DebugClass.h" />
+    <ClInclude Include="include\utils\KernelConverter.h" />
+    <ClInclude Include="include\utils\SnippetVehicleCreate.h" />
+    <ClInclude Include="include\utils\SnippetVehicleFilterShader.h" />
+    <ClInclude Include="include\utils\SnippetVehicleRaycast.h" />
+    <ClInclude Include="include\utils\SnippetVehicleTireFriction.h" />
+    <ClInclude Include="include\utils\Streams.h" />
+    <ClInclude Include="include\utils\StringUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\components\effects\TrailRenderer.cpp" />
+    <ClCompile Include="source\components\mesh\ManualObject.cpp" />
+    <ClCompile Include="source\components\physics\BoxCollider.cpp" />
+    <ClCompile Include="source\components\physics\CapsuleCollider.cpp" />
+    <ClCompile Include="source\components\physics\CharacterController.cpp" />
+    <ClCompile Include="source\components\physics\Collider.cpp" />
+    <ClCompile Include="source\components\physics\ConstantForce.cpp" />
+    <ClCompile Include="source\components\physics\MeshCollider.cpp" />
+    <ClCompile Include="source\components\physics\Rigidbody.cpp" />
+    <ClCompile Include="source\components\physics\SphereCollider.cpp" />
+    <ClCompile Include="source\components\physics\TerrainCollider.cpp" />
+    <ClCompile Include="source\components\physics\Vehicle.cpp" />
+    <ClCompile Include="source\components\rendering\FollowTexture.cpp" />
+    <ClCompile Include="source\components\script\Script.cpp" />
+    <ClCompile Include="source\engine\buffers\Collision.cpp" />
+    <ClCompile Include="source\engine\buffers\RaycastHit.cpp" />
+    <ClCompile Include="source\engine\buffers\TerrainData.cpp" />
+    <ClCompile Include="source\engine\callback\CharacterControllerCallback.cpp" />
+    <ClCompile Include="source\engine\callback\SceneCallback.cpp" />
+    <ClCompile Include="source\engine\callback\SceneQueryEventCallback.cpp" />
+    <ClCompile Include="source\engine\callback\SimulationEventCallback.cpp" />
+    <ClCompile Include="source\engine\Compositor.cpp" />
+    <ClCompile Include="source\engine\CompositorListeners.cpp" />
+    <ClCompile Include="source\engine\Engine.cpp" />
+    <ClCompile Include="source\engine\PhysicsEngine.cpp" />
+    <ClCompile Include="source\engine\RenderingEngine.cpp" />
+    <ClCompile Include="source\engine\RenderView.cpp" />
+    <ClCompile Include="source\engine\Scene.cpp" />
+    <ClCompile Include="source\engine\SkyXManager.cpp" />
+    <ClCompile Include="source\engine\SoundEngine.cpp" />
+    <ClCompile Include="source\engine\StereoManager.cpp" />
+    <ClCompile Include="source\gameobject\LayerMask.cpp" />
+    <ClCompile Include="source\gameobject\Tag.cpp" />
+    <ClCompile Include="source\MainWindow.cpp" />
+    <ClCompile Include="source\components\audio\AudioListener.cpp" />
+    <ClCompile Include="source\components\audio\AudioSource.cpp" />
+    <ClCompile Include="source\components\Component.cpp" />
+    <ClCompile Include="source\components\ComponentTemplate.cpp" />
+    <ClCompile Include="source\components\effects\ParticleSystem.cpp" />
+    <ClCompile Include="source\components\mesh\MeshFilter.cpp" />
+    <ClCompile Include="source\components\mesh\MeshRenderer.cpp" />
+    <ClCompile Include="source\components\mesh\Renderer.cpp" />
+    <ClCompile Include="source\components\mesh\SkinnedMeshRenderer.cpp" />
+    <ClCompile Include="source\components\miscellaneous\Animation.cpp" />
+    <ClCompile Include="source\components\rendering\Billboard.cpp" />
+    <ClCompile Include="source\components\rendering\BoundingBox.cpp" />
+    <ClCompile Include="source\components\rendering\Camera.cpp" />
+    <ClCompile Include="source\components\rendering\FollowText.cpp" />
+    <ClCompile Include="source\components\rendering\Light.cpp" />
+    <ClCompile Include="source\components\transform\Transform.cpp" />
+    <ClCompile Include="source\Core.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="source\gameobject\GameObject.cpp" />
+    <ClCompile Include="source\gameobject\GameObjectManager.cpp" />
+    <ClCompile Include="source\gameobject\GameObjectTemplate.cpp" />
+    <ClCompile Include="source\gameobject\GameObjectTemplateManager.cpp" />
+    <ClCompile Include="source\input\InputManager.cpp" />
+    <ClCompile Include="source\input\JoystickEvents.cpp" />
+    <ClCompile Include="source\input\KeyEvents.cpp" />
+    <ClCompile Include="source\input\MouseEvents.cpp" />
+    <ClCompile Include="source\Logic.cpp" />
+    <ClCompile Include="source\math\Bounds.cpp" />
+    <ClCompile Include="source\math\Color.cpp" />
+    <ClCompile Include="source\math\Geometry.cpp" />
+    <ClCompile Include="source\math\KernelMath.cpp" />
+    <ClCompile Include="source\math\Matrix3.cpp" />
+    <ClCompile Include="source\math\Matrix4.cpp" />
+    <ClCompile Include="source\math\Quaternion.cpp" />
+    <ClCompile Include="source\math\Ray.cpp" />
+    <ClCompile Include="source\math\Vector2.cpp" />
+    <ClCompile Include="source\math\Vector3.cpp" />
+    <ClCompile Include="source\math\Vector4.cpp" />
+    <ClCompile Include="source\stdafx.cpp" />
+    <ClCompile Include="source\time\Time.cpp" />
+    <ClCompile Include="source\utils\Cooker.cpp" />
+    <ClCompile Include="source\utils\DebugClass.cpp" />
+    <ClCompile Include="source\utils\KernelConverter.cpp" />
+    <ClCompile Include="source\utils\SnippetVehicle4WCreate.cpp" />
+    <ClCompile Include="source\utils\SnippetVehicleCreate.cpp" />
+    <ClCompile Include="source\utils\SnippetVehicleFilterShader.cpp" />
+    <ClCompile Include="source\utils\SnippetVehicleRaycast.cpp" />
+    <ClCompile Include="source\utils\SnippetVehicleTireFriction.cpp" />
+    <ClCompile Include="source\utils\Streams.cpp" />
+    <ClCompile Include="source\utils\StringUtils.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
