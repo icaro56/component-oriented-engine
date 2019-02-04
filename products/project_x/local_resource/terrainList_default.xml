@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE surfaces>
+<surfaces version="1.0" current="7">
+    <surface id="3" name="Terreno C" creationDate="31/03/2013" registrationDate="1363049950" edited="0">
+        <coordReal x1="-3200.5000000" x2="8200.5000000" y1="-5600.5000000" y2="5800.5000000" z1="0.0000000" z2="836.5603640"/>
+        <environment opacity="1.0000000">
+            <colorAmb r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorDiff r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorSpec r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorSelf r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+        </environment>
+        <description value="terreno 3"/>
+    </surface>
+    <surface id="4" name="Terreno D" creationDate="07/04/2012" registrationDate="1363149950" edited="0">
+        <coordReal x1="-3200.5000000" x2="8200.5000000" y1="-5600.5000000" y2="5800.5000000" z1="0.0000000" z2="836.5603640"/>
+        <environment opacity="1.0000000">
+            <colorAmb r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorDiff r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorSpec r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorSelf r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+        </environment>
+        <description value="terreno 4 kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"/>
+    </surface>
+    <surface id="5" name="Terreno Projeto X" creationDate="18/11/2013" registrationDate="1363249950" edited="0">
+        <coordReal x1="278805.0000000" x2="280955.0000000" y1="2088005.0000000" y2="2090695.0000000" z1="306.3600000" z2="940.0000000"/>
+        <environment opacity="1.0000000">
+            <colorAmb r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorDiff r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorSpec r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorSelf r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+        </environment>
+        <description value="14/03/2013 - 05:32:30"/>
+    </surface>
+    <surface id="6" name="Terreno Projeto X 2" creationDate="18/11/2013" registrationDate="1363249951" edited="0">
+        <coordReal x1="278805.0000000" x2="281495.0000000" y1="2088005.0000000" y2="2090695.0000000" z1="306.3600000" z2="940.0000000"/>
+        <environment opacity="1.0000000">
+            <colorAmb r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorDiff r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorSpec r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorSelf r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+        </environment>
+        <description value="14/03/2013 - 05:32:31"/>
+    </surface>
+    <surface id="7" name="Terreno Projeto X 3" creationDate="18/11/2013" registrationDate="1363249952" edited="0">
+        <coordReal x1="15.0000000" x2="1815.0000000" y1="15.0000000" y2="1815.0000000" z1="-22.7200000" z2="510.0000000"/>
+        <environment opacity="1.0000000">
+            <colorAmb r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorDiff r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorSpec r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorSelf r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+        </environment>
+        <description value="14/03/2013 - 05:32:32"/>
+    </surface>
+    <surface id="1" name="Terreno A" creationDate="29/11/2012" registrationDate="1363099950" edited="0">
+        <coordReal x1="-3200.5000000" x2="8200.5000000" y1="-5600.5000000" y2="5800.5000000" z1="0.0000000" z2="836.5603640"/>
+        <environment opacity="1.0000000">
+            <colorAmb r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorDiff r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorSpec r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorSelf r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+        </environment>
+        <description value="terreno 1"/>
+    </surface>
+    <surface id="2" name="Terreno B" creationDate="29/11/2012" registrationDate="1363098950" edited="0">
+        <coordReal x1="-3200.5000000" x2="8200.5000000" y1="-5600.5000000" y2="5800.5000000" z1="0.0000000" z2="836.5603640"/>
+        <environment opacity="1.0000000">
+            <colorAmb r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorDiff r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorSpec r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+            <colorSelf r="0.0000000" g="0.0000000" b="0.0000000" alpha="0.0000000"/>
+        </environment>
+        <description value="terreno 2"/>
+    </surface>
+</surfaces>

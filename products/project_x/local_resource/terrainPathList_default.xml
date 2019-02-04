@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE xTerrain>
+<paths version="1.0" >
+   <path id="1" type="1" value="C:\mine_data" timeMonitoring="11" />
+   <path id="2" type="2" value="ftp.mineinside.com" dir="/MineInside/Carajas" port="1121" username="carajas" password="carajas@2012" timeMonitoring="10" />
+   <path id="3" type="1" value="C:\mine_data" timeMonitoring="11" />
+   <path id="4" type="2" value="ftp.mineinside.com" dir="/MineInside/Carajas" port="1121" username="carajas" password="carajas@2012" timeMonitoring="10" />
+   <path id="5" type="1" value="C:\mine_data" timeMonitoring="11" />
+   <path id="6" type="2" value="ftp.mineinside.com" dir="/MineInside/Carajas" port="1121" username="carajas" password="carajas@2012" timeMonitoring="10" />
+   <path id="7" type="1" value="C:\mine_data" timeMonitoring="11" />
+   <path id="8" type="2" value="ftp.mineinside.com" dir="/MineInside/Carajas" port="1121" username="carajas" password="carajas@2012" timeMonitoring="10" />
+   <path id="9" type="1" value="C:\mine_data" timeMonitoring="11" />
+   <path id="10" type="2" value="ftp.mineinside.com" dir="/MineInside/Carajas" port="1121" username="carajas" password="carajas@2012" timeMonitoring="10" />
+</paths>

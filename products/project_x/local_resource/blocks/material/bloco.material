@@ -1,0 +1,314 @@
+material blocos/selecionado
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture selecionado.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
+
+material blocos/HF
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture bloco_hf.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
+
+material blocos/HC
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture bloco_hc.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
+
+material blocos/HMN
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture bloco_hmn.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
+
+material blocos/CE
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture bloco_ce.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
+
+material blocos/CQ
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture bloco_cq.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
+
+material blocos/FM
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture bloco_fm.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
+
+material blocos/JP
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture bloco_jp.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
+
+material blocos/MS
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture bloco_ms.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
+
+material blocos/MSD
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture bloco_msd.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
+
+material blocos/MD
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture bloco_md.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
+
+material blocos/SO
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture bloco_so.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
+
+material blocos/AT
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture bloco_at.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
+
+material blocos/FF
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture bloco_ff.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
+
+material blocos/AG
+{
+	technique 
+	{
+		pass 
+		{
+			ambient 0.698039 0.698039 0.698039 1
+			diffuse 0.698039 0.698039 0.698039 1
+			specular 0.898039 0.898039 0.898039 1 20
+			emissive 0.368627 0.368627 0.368627 1
+			texture_unit 
+			{
+				texture bloco_ag.jpg 2d unlimited  
+				tex_coord_set 0
+				filtering anisotropic 
+				max_anisotropy 16
+			}
+		}
+	}
+}
