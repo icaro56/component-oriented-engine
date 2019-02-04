@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{84ea31f6-bd7f-4b32-9f9c-c7759bad9aa1}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{b81856c8-c85b-42f8-afa2-f51e29ac7693}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\global">
+      <UniqueIdentifier>{3aaf1ed6-8d6b-4824-9ce6-84bb6f23981b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global">
+      <UniqueIdentifier>{6880d9ad-e9ff-4ea7-986d-800b14a6eb0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\local">
+      <UniqueIdentifier>{56b236c5-21d4-4248-8576-ae14c10c29a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\local">
+      <UniqueIdentifier>{4c67dd49-b5a6-4216-a477-bcc0d053f994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\navigation">
+      <UniqueIdentifier>{392cf44c-0067-4454-b8a7-17b1f2d3935f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\navigation">
+      <UniqueIdentifier>{aea20a0b-fe98-48d7-bdda-7a940fa2d700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\navigation\behaviors">
+      <UniqueIdentifier>{4a74c007-262f-4501-94bf-b23c6d939aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\navigation\behaviors">
+      <UniqueIdentifier>{3328413f-7ba0-4129-843d-ad7be9d89a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\system">
+      <UniqueIdentifier>{c45240c4-d7c3-4f28-b364-8da663c18a3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\system">
+      <UniqueIdentifier>{a70a00c7-e11e-4d50-a02d-dabb830c0a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\persistence">
+      <UniqueIdentifier>{d4db7542-0b65-419b-9e12-f13651dd37b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\persistence">
+      <UniqueIdentifier>{06f53d1e-e8d4-42ce-8450-d45014292978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\persistence\filesystem">
+      <UniqueIdentifier>{49ee432d-bbc3-452c-a054-e7a83146fbea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\persistence\filesystem">
+      <UniqueIdentifier>{e14aa37b-8ee1-4ab6-93a8-02fd2a60adb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\local\system">
+      <UniqueIdentifier>{c70dc92d-8a99-48f7-a865-7d7ee16092c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\surface">
+      <UniqueIdentifier>{70f050c1-8335-4216-ac3d-67874b2daca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\surface">
+      <UniqueIdentifier>{f049d79f-fe14-4e4f-bbfb-87da23195e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\view">
+      <UniqueIdentifier>{33f9d2eb-5236-4b2d-9160-c3524aac086b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\view\minimap">
+      <UniqueIdentifier>{7faf6ac8-b77a-4b8a-ab9a-c7b9431b535e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view">
+      <UniqueIdentifier>{1559d161-463b-429e-9243-45d330858833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view\minimap">
+      <UniqueIdentifier>{52ed5508-57bc-49bf-987c-a496fbb5bccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\view\minimap\element">
+      <UniqueIdentifier>{5d61dd71-45ee-40af-bbf2-68134103c001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view\minimap\element">
+      <UniqueIdentifier>{e977cc05-202e-4017-a0b0-dee480d40ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\gizmo">
+      <UniqueIdentifier>{8cccc4c4-2daa-418b-9834-b6923731ddd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\gizmo">
+      <UniqueIdentifier>{81942826-a558-4f90-a652-1ca1261dc4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\view\statusbar">
+      <UniqueIdentifier>{0b9b8f77-886b-426e-a07e-f5f04ea13042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view\statusbar">
+      <UniqueIdentifier>{9198ff32-e787-4f35-bfb1-1480e0a30c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\view\compass">
+      <UniqueIdentifier>{1f582e26-4f28-4230-9b67-25751cf320a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view\compass">
+      <UniqueIdentifier>{6a431d7e-5c77-4d7a-b6f2-d9e8c732785a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\log">
+      <UniqueIdentifier>{e1ef3558-aaf8-48b7-9ef1-51cf74218356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\log">
+      <UniqueIdentifier>{751dd530-198c-4612-93cd-a8995273c5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\pattern">
+      <UniqueIdentifier>{e5ebba4d-ad4a-4b77-b75a-5c8bff0795a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\pattern">
+      <UniqueIdentifier>{0003125a-6f5c-4992-ad9c-60d3a7ab7764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\mining">
+      <UniqueIdentifier>{6b8b623a-0000-4601-8714-1cccc0e98912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\mining">
+      <UniqueIdentifier>{4da294f7-7945-4ed3-ae55-78fb1e16aeb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\mining\terrain">
+      <UniqueIdentifier>{2e457d86-1d74-4b70-adf4-518e7363f4ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\mining\terrain">
+      <UniqueIdentifier>{df8061a9-3cbb-46e1-81cc-8250959b064f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\mining\mine">
+      <UniqueIdentifier>{66e9b263-7be3-4049-83e2-8a3f66accb0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\mining\mine">
+      <UniqueIdentifier>{79fad8e4-ab39-461d-8e18-593ace2841e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\utils">
+      <UniqueIdentifier>{fe2a6f55-2fed-408c-abb1-603ab6596d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\utils">
+      <UniqueIdentifier>{b58bc941-2e2b-459f-9cfc-8dfb5f617de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view\close">
+      <UniqueIdentifier>{f43fe18a-43df-454c-8070-33e374305b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\view\close">
+      <UniqueIdentifier>{70b36289-07a3-4e77-89ad-2187a49d144f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view\camcontrol">
+      <UniqueIdentifier>{3d17b7a6-cd0e-4a34-a117-448229a5e529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\view\camcontrol">
+      <UniqueIdentifier>{80404c1e-ad77-43c2-a854-babd7c769637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\view\camcontrol\camautomatic">
+      <UniqueIdentifier>{b153707a-81fc-4062-b1f5-9140e73f946e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\view\camcontrol\camavatar">
+      <UniqueIdentifier>{6830fdb1-724a-40b4-b000-e1716df6e4eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\view\camcontrol\camfree">
+      <UniqueIdentifier>{a665bc7e-f0d5-450a-8065-814f86ac94ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\view\camcontrol\camge">
+      <UniqueIdentifier>{49c52115-d6d3-41b3-a066-ea809b5e3755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\view\camcontrol\camorbital">
+      <UniqueIdentifier>{efbecda9-1585-4b4a-8354-fbc96eaa78d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view\camcontrol\camautomatic">
+      <UniqueIdentifier>{8132a2b9-8198-498d-8941-c521aa48f714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view\camcontrol\camavatar">
+      <UniqueIdentifier>{56c97615-ec6c-4e36-b14b-b68dff31472a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view\camcontrol\camfree">
+      <UniqueIdentifier>{c7d2a5dd-9d1a-41bd-86e7-4d46b32048b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view\camcontrol\camge">
+      <UniqueIdentifier>{54704972-ce70-466c-87f5-92e0d080f2fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view\camcontrol\camorbital">
+      <UniqueIdentifier>{6eb765f4-73b3-495f-bf7b-a187064326e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\avatar">
+      <UniqueIdentifier>{9f0af19f-b241-4b8c-b61d-b1481ae42fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\avatar">
+      <UniqueIdentifier>{7a3af69f-3fa7-4d8f-9d48-9d7e58f326ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\voxel">
+      <UniqueIdentifier>{9759babf-0ee1-4025-8acd-491db32af4a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\voxel">
+      <UniqueIdentifier>{855aa531-3cd1-48fd-a1be-5d4b67603f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view\configterrain">
+      <UniqueIdentifier>{064fc888-3549-4f72-982b-b1b27213684b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\view\configterrain">
+      <UniqueIdentifier>{ef89eb63-7c09-4ce9-a2d9-f5ce3a0397ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Final">
+      <UniqueIdentifier>{97cd1a84-df6e-4cb3-b615-a58b163ad3a3}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\global\view\delegates">
+      <UniqueIdentifier>{64fabc96-1f52-46a4-b572-0fe5daa328eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view\delegates">
+      <UniqueIdentifier>{8f60ad3c-19d9-4588-a48e-946eb0176ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\global\view\terrain">
+      <UniqueIdentifier>{59e04cdb-23cd-4ab6-8648-688b476bd1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\global\view\terrain">
+      <UniqueIdentifier>{2d1fdea3-c975-4151-9d5e-b114ad5da8b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\global_source\main.cpp">
+      <Filter>Source Files\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\MyLogic.cpp">
+      <Filter>Source Files\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\navigation\CameraBasics.cpp">
+      <Filter>Source Files\global\navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\navigation\CameraController.cpp">
+      <Filter>Source Files\global\navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\navigation\CameraControllerManager.cpp">
+      <Filter>Source Files\global\navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\navigation\behaviors\AutoCameraBehavior.cpp">
+      <Filter>Source Files\global\navigation\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\navigation\behaviors\AvatarCameraBehavior.cpp">
+      <Filter>Source Files\global\navigation\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\navigation\behaviors\CameraBehavior.cpp">
+      <Filter>Source Files\global\navigation\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\navigation\behaviors\FreeCameraBehavior.cpp">
+      <Filter>Source Files\global\navigation\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\navigation\behaviors\GoogleEarthCameraBehavior.cpp">
+      <Filter>Source Files\global\navigation\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\navigation\behaviors\OrbitCameraBehavior.cpp">
+      <Filter>Source Files\global\navigation\behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\system\IniConfig.cpp">
+      <Filter>Source Files\global\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\persistence\filesystem\DataFileSystem.cpp">
+      <Filter>Source Files\global\persistence\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\persistence\filesystem\ExportFileSystem.cpp">
+      <Filter>Source Files\global\persistence\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\persistence\filesystem\ImportFileSystem.cpp">
+      <Filter>Source Files\global\persistence\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\persistence\filesystem\KeyValueFileSystem.cpp">
+      <Filter>Source Files\global\persistence\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\persistence\filesystem\ObjectFileSystem.cpp">
+      <Filter>Source Files\global\persistence\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\surface\Surface.cpp">
+      <Filter>Source Files\global\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\surface\SurfaceData.cpp">
+      <Filter>Source Files\global\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\surface\SurfaceEvents.cpp">
+      <Filter>Source Files\global\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\surface\SurfaceException.cpp">
+      <Filter>Source Files\global\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\surface\SurfaceFileConfig.cpp">
+      <Filter>Source Files\global\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\surface\SurfaceFileConfigData.cpp">
+      <Filter>Source Files\global\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\surface\SurfaceListerner.cpp">
+      <Filter>Source Files\global\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\surface\SurfaceManager.cpp">
+      <Filter>Source Files\global\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\surface\SurfaceObject.cpp">
+      <Filter>Source Files\global\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\surface\SurfacePath.cpp">
+      <Filter>Source Files\global\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_SurfacePath.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_SurfacePath.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\surface\SurfacePathFile.cpp">
+      <Filter>Source Files\global\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\surface\SurfacePathFileConfig.cpp">
+      <Filter>Source Files\global\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\surface\SurfacePathFileConfigData.cpp">
+      <Filter>Source Files\global\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\surface\SurfacePathManager.cpp">
+      <Filter>Source Files\global\surface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\minimap\MiniMap.cpp">
+      <Filter>Source Files\global\view\minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\minimap\MiniMapControl.cpp">
+      <Filter>Source Files\global\view\minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\minimap\element\MiniMapElement.cpp">
+      <Filter>Source Files\global\view\minimap\element</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\gizmo\Gizmo3d.cpp">
+      <Filter>Source Files\global\gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\gizmo\GizmoControl.cpp">
+      <Filter>Source Files\global\gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\UiBasic.cpp">
+      <Filter>Source Files\global\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\UiBasicManager.cpp">
+      <Filter>Source Files\global\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\UiException.cpp">
+      <Filter>Source Files\global\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\UiRepresentation.cpp">
+      <Filter>Source Files\global\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\UiRepresentationManager.cpp">
+      <Filter>Source Files\global\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\UiUserLog.cpp">
+      <Filter>Source Files\global\view</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\statusbar\StatusBar.cpp">
+      <Filter>Source Files\global\view\statusbar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\statusbar\StatusBarControl.cpp">
+      <Filter>Source Files\global\view\statusbar</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_Compass.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_Compass.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_CompassControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_CompassControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\compass\Compass.cpp">
+      <Filter>Source Files\global\view\compass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\compass\CompassControl.cpp">
+      <Filter>Source Files\global\view\compass</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_ReaderLog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_ReaderLog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\log\EventLog.cpp">
+      <Filter>Source Files\global\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\log\LogManager.cpp">
+      <Filter>Source Files\global\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\log\ProcessorLog.cpp">
+      <Filter>Source Files\global\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\log\ReaderLog.cpp">
+      <Filter>Source Files\global\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\pattern\AbstractFactory.cpp">
+      <Filter>Source Files\global\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\mining\terrain\OpenPitTerrain.cpp">
+      <Filter>Source Files\global\mining\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\mining\mine\OpenPitFactory.cpp">
+      <Filter>Source Files\global\mining\mine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\gizmo\Gizmo.cpp">
+      <Filter>Source Files\global\gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_Gizmo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_Gizmo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_Gizmo3d.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_Gizmo3d.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_GizmoControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_GizmoControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_CameraController.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_CameraController.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_MiniMap.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_MiniMap.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_MiniMapControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_MiniMapControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\close\Close.cpp">
+      <Filter>Source Files\global\view\close</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\close\CloseControl.cpp">
+      <Filter>Source Files\global\view\close</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_Close.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_Close.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_CloseControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_CloseControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\camcontrol\CamControl.cpp">
+      <Filter>Source Files\global\view\camcontrol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\camcontrol\camautomatic\CamAutomaticControl.cpp">
+      <Filter>Source Files\global\view\camcontrol\camautomatic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\camcontrol\camavatar\CamAvatarControl.cpp">
+      <Filter>Source Files\global\view\camcontrol\camavatar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\camcontrol\camfree\CamFreeControl.cpp">
+      <Filter>Source Files\global\view\camcontrol\camfree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\camcontrol\camge\CamGEControl.cpp">
+      <Filter>Source Files\global\view\camcontrol\camge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\camcontrol\camorbital\CamOrbitalControl.cpp">
+      <Filter>Source Files\global\view\camcontrol\camorbital</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\avatar\Avatar.cpp">
+      <Filter>Source Files\global\avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\avatar\AvatarManager.cpp">
+      <Filter>Source Files\global\avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_CamControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_CamControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_CamOrbitalControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_CamOrbitalControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_CamGEControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_CamGEControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_CamFreeControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_CamFreeControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_CamAvatarControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_CamAvatarControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_CamAutomaticControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_CamAutomaticControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\voxel\VoxelManager.cpp">
+      <Filter>Source Files\global\voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\utils\Functions.cpp">
+      <Filter>Source Files\global\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\utils\Pooling.cpp">
+      <Filter>Source Files\global\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\voxel\VoxelRaycastCallback.cpp">
+      <Filter>Source Files\global\voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\configterrain\ConfigTerrain.cpp">
+      <Filter>Source Files\global\view\configterrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\configterrain\ConfigTerrainControl.cpp">
+      <Filter>Source Files\global\view\configterrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\configterrain\ConfigTerrainDir.cpp">
+      <Filter>Source Files\global\view\configterrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\configterrain\ConfigTerrainFtp.cpp">
+      <Filter>Source Files\global\view\configterrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\delegates\ColorDelegate.cpp">
+      <Filter>Source Files\global\view\delegates</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Final\moc_ColorDelegate.cpp">
+      <Filter>Generated Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_ColorDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_ColorDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\delegates\ComboBoxDelegate.cpp">
+      <Filter>Source Files\global\view\delegates</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Final\moc_ComboBoxDelegate.cpp">
+      <Filter>Generated Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_ComboBoxDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_ComboBoxDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\delegates\DoubleSpinBoxDelegate.cpp">
+      <Filter>Source Files\global\view\delegates</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Final\moc_DoubleSpinBoxDelegate.cpp">
+      <Filter>Generated Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_DoubleSpinBoxDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_DoubleSpinBoxDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\delegates\SpinBoxDelegate.cpp">
+      <Filter>Source Files\global\view\delegates</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Final\moc_SpinBoxDelegate.cpp">
+      <Filter>Generated Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_SpinBoxDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_SpinBoxDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Final\moc_ConfigTerrain.cpp">
+      <Filter>Generated Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_ConfigTerrain.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_ConfigTerrain.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Final\moc_ConfigTerrainControl.cpp">
+      <Filter>Generated Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_ConfigTerrainControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_ConfigTerrainControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Final\moc_ConfigTerrainDir.cpp">
+      <Filter>Generated Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_ConfigTerrainDir.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_ConfigTerrainDir.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Final\moc_ConfigTerrainFtp.cpp">
+      <Filter>Generated Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_ConfigTerrainFtp.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_ConfigTerrainFtp.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\terrain\UITerrain.cpp">
+      <Filter>Source Files\global\view\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\view\terrain\UITerrainControl.cpp">
+      <Filter>Source Files\global\view\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Final\moc_UITerrain.cpp">
+      <Filter>Generated Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_UITerrain.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_UITerrain.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Final\moc_UITerrainControl.cpp">
+      <Filter>Generated Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_UITerrainControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_UITerrainControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Final\moc_StatusBarControl.cpp">
+      <Filter>Generated Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_StatusBarControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_StatusBarControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\gizmo\AxisObject.cpp">
+      <Filter>Source Files\global\gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\voxel\SurfaceVoxelManager.cpp">
+      <Filter>Source Files\global\voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\stdafx_project.cpp">
+      <Filter>Source Files\global</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Final\moc_MyMainWindow.cpp">
+      <Filter>Generated Files\Final</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Debug\moc_MyMainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\GeneratedFiles\Release\moc_MyMainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\global_source\MyMainWindow.cpp">
+      <Filter>Source Files\global</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="local_source\MyOgreResources.h">
+      <Filter>Header Files\local</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\navigation\CameraBasics.h">
+      <Filter>Header Files\global\navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\navigation\CameraControllerManager.h">
+      <Filter>Header Files\global\navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\navigation\behaviors\AutoCameraBehavior.h">
+      <Filter>Header Files\global\navigation\behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\navigation\behaviors\AvatarCameraBehavior.h">
+      <Filter>Header Files\global\navigation\behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\navigation\behaviors\CameraBehavior.h">
+      <Filter>Header Files\global\navigation\behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\navigation\behaviors\FreeCameraBehavior.h">
+      <Filter>Header Files\global\navigation\behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\navigation\behaviors\GoogleEarthCameraBehavior.h">
+      <Filter>Header Files\global\navigation\behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\navigation\behaviors\OrbitCameraBehavior.h">
+      <Filter>Header Files\global\navigation\behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\system\IniConfig.h">
+      <Filter>Header Files\global\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\system\GlobalConfig.h">
+      <Filter>Header Files\global\system</Filter>
+    </ClInclude>
+    <ClInclude Include="local_source\ProjectPrerequisites.h">
+      <Filter>Header Files\local</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\persistence\filesystem\DataFileSystem.h">
+      <Filter>Header Files\global\persistence\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\persistence\filesystem\ExportFileSystem.h">
+      <Filter>Header Files\global\persistence\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\persistence\filesystem\ImportFileSystem.h">
+      <Filter>Header Files\global\persistence\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\persistence\filesystem\KeyValueFileSystem.h">
+      <Filter>Header Files\global\persistence\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\persistence\filesystem\ObjectFileSystem.h">
+      <Filter>Header Files\global\persistence\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="local_source\system\ProjectConfig.h">
+      <Filter>Header Files\local\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\surface\Surface.h">
+      <Filter>Header Files\global\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\surface\SurfaceData.h">
+      <Filter>Header Files\global\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\surface\SurfaceEvents.h">
+      <Filter>Header Files\global\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\surface\SurfaceException.h">
+      <Filter>Header Files\global\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\surface\SurfaceFileConfig.h">
+      <Filter>Header Files\global\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\surface\SurfaceFileConfigData.h">
+      <Filter>Header Files\global\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\surface\SurfaceListerner.h">
+      <Filter>Header Files\global\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\surface\SurfaceManager.h">
+      <Filter>Header Files\global\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\surface\SurfaceObject.h">
+      <Filter>Header Files\global\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\surface\SurfacePathFile.h">
+      <Filter>Header Files\global\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\surface\SurfacePathFileConfig.h">
+      <Filter>Header Files\global\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\surface\SurfacePathFileConfigData.h">
+      <Filter>Header Files\global\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\surface\SurfacePathManager.h">
+      <Filter>Header Files\global\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\view\minimap\element\MiniMapElement.h">
+      <Filter>Header Files\global\view\minimap\element</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\view\UiBasic.h">
+      <Filter>Header Files\global\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\view\UiBasicManager.h">
+      <Filter>Header Files\global\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\view\UiException.h">
+      <Filter>Header Files\global\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\view\UiRepresentation.h">
+      <Filter>Header Files\global\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\view\UiRepresentationManager.h">
+      <Filter>Header Files\global\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\view\UiUserLog.h">
+      <Filter>Header Files\global\view</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\view\statusbar\StatusBar.h">
+      <Filter>Header Files\global\view\statusbar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\log\EventLog.h">
+      <Filter>Header Files\global\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\log\LogManager.h">
+      <Filter>Header Files\global\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\log\ProcessorLog.h">
+      <Filter>Header Files\global\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\pattern\AbstractFactory.h">
+      <Filter>Header Files\global\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\mining\terrain\OpenPitTerrain.h">
+      <Filter>Header Files\global\mining\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\mining\mine\OpenPitFactory.h">
+      <Filter>Header Files\global\mining\mine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\view\camcontrol\CameraControlBasic.h">
+      <Filter>Header Files\global\view\camcontrol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\avatar\Avatar.h">
+      <Filter>Header Files\global\avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\avatar\AvatarBasics.h">
+      <Filter>Header Files\global\avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\avatar\AvatarManager.h">
+      <Filter>Header Files\global\avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\voxel\VoxelManager.h">
+      <Filter>Header Files\global\voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\utils\Functions.h">
+      <Filter>Header Files\global\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\utils\Pooling.h">
+      <Filter>Header Files\global\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\voxel\VoxelRaycastCallback.h">
+      <Filter>Header Files\global\voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="temp\GeneratedFiles\ui_ConfigTerrain.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="temp\GeneratedFiles\ui_ConfigTerrainDir.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="temp\GeneratedFiles\ui_ConfigTerrainFtp.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\gizmo\AxisObject.h">
+      <Filter>Header Files\global\gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\voxel\SurfaceVoxelManager.h">
+      <Filter>Header Files\global\voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\global_source\stdafx_project.h">
+      <Filter>Header Files\global</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\global_source\navigation\CameraController.h">
+      <Filter>Header Files\global\navigation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\surface\SurfacePath.h">
+      <Filter>Header Files\global\surface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\minimap\MiniMap.h">
+      <Filter>Header Files\global\view\minimap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\minimap\MiniMapControl.h">
+      <Filter>Header Files\global\view\minimap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\gizmo\Gizmo3d.h">
+      <Filter>Header Files\global\gizmo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\gizmo\GizmoControl.h">
+      <Filter>Header Files\global\gizmo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\compass\Compass.h">
+      <Filter>Header Files\global\view\compass</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\compass\CompassControl.h">
+      <Filter>Header Files\global\view\compass</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\log\ReaderLog.h">
+      <Filter>Header Files\global\log</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\gizmo\Gizmo.h">
+      <Filter>Header Files\global\gizmo</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\close\Close.h">
+      <Filter>Header Files\global\view\close</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\close\CloseControl.h">
+      <Filter>Header Files\global\view\close</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\camcontrol\CamControl.h">
+      <Filter>Header Files\global\view\camcontrol</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\camcontrol\camautomatic\CamAutomaticControl.h">
+      <Filter>Header Files\global\view\camcontrol\camautomatic</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\camcontrol\camavatar\CamAvatarControl.h">
+      <Filter>Header Files\global\view\camcontrol\camavatar</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\camcontrol\camfree\CamFreeControl.h">
+      <Filter>Header Files\global\view\camcontrol\camfree</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\camcontrol\camge\CamGEControl.h">
+      <Filter>Header Files\global\view\camcontrol\camge</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\camcontrol\camorbital\CamOrbitalControl.h">
+      <Filter>Header Files\global\view\camcontrol\camorbital</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\configterrain\ConfigTerrain.h">
+      <Filter>Header Files\global\view\configterrain</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\configterrain\ConfigTerrainControl.h">
+      <Filter>Header Files\global\view\configterrain</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\configterrain\ConfigTerrainDir.h">
+      <Filter>Header Files\global\view\configterrain</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\configterrain\ConfigTerrainFtp.h">
+      <Filter>Header Files\global\view\configterrain</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\configterrain\ConfigTerrain.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\configterrain\ConfigTerrainDir.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\configterrain\ConfigTerrainFtp.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\delegates\ColorDelegate.h">
+      <Filter>Header Files\global\view\delegates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\delegates\ComboBoxDelegate.h">
+      <Filter>Header Files\global\view\delegates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\delegates\DoubleSpinBoxDelegate.h">
+      <Filter>Header Files\global\view\delegates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\delegates\SpinBoxDelegate.h">
+      <Filter>Header Files\global\view\delegates</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\terrain\UITerrain.h">
+      <Filter>Header Files\global\view\terrain</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\terrain\UITerrainControl.h">
+      <Filter>Header Files\global\view\terrain</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\view\statusbar\StatusBarControl.h">
+      <Filter>Header Files\global\view\statusbar</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\MyMainWindow.h">
+      <Filter>Header Files\global</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\global_source\MyLogic.h">
+      <Filter>Header Files\global</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
