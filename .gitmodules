@@ -1,0 +1,3 @@
+[submodule "dependences"]
+	path = dependences
+	url = https://github.com/icaro56/coe-dependences.git
